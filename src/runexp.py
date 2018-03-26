@@ -11,6 +11,9 @@ from keras.preprocessing import sequence
 from keras.datasets import mnist, cifar10, cifar100, imdb
 from keras.utils import np_utils
 from keras.utils.data_utils import get_file
+from keras import backend as K
+K.set_image_dim_ordering('th')
+
 
 from gridopts import *
 from models import *
