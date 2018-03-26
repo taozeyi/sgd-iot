@@ -1,1 +1,2 @@
 Other Information
+python runexp.py --optimizer adam --opt-args '{"lrs":[0.5], "decays":[0.99]}' --model cnn --dataset mnist --batch-size 64 --epochs 10 --save-path test.txt
